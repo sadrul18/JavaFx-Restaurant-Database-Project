@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="621.0" style="-fx-background-color: #FF6961;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerClass.customerController">
+   <children>
+      <Button layoutX="225.0" layoutY="191.0" mnemonicParsing="false" onAction="#searchFoodClick" prefHeight="42.0" prefWidth="171.0" text="Search Food">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="225.0" layoutY="271.0" mnemonicParsing="false" onAction="#searchRestaurantClick" prefHeight="42.0" prefWidth="171.0" text="Search Restaurent">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="487.0" layoutY="437.0" mnemonicParsing="false" onAction="#logOutClick" prefHeight="38.0" prefWidth="103.0" text="Log Out">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
